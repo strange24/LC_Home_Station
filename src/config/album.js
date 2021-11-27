@@ -1,0 +1,42 @@
+const albumType={
+    "data":[
+        {
+            "title":"PART",
+            "sub_h":"party",
+            "sub_p":"团建专区",
+            "img_src":"together.jpg"
+        },
+        {
+            "title":"DAILY",
+            "sub_h":"daily",
+            "sub_p":"团队日常(学习、娱乐)",
+            "img_src":"live.jpg"
+        },
+        {
+            "title":"MUSIC",
+            "sub_h":"music",
+            "sub_p":"音乐专区",
+            "img_src":"music.jpg"
+        },
+        {
+            "title":"HONOR",
+            "sub_h":"honor",
+            "sub_p":"团队荣誉",
+            "img_src":"honor.jpg"
+        },
+        {
+            "title":"CHARACTER",
+            "sub_h":"character",
+            "sub_p":"人物专区",
+            "img_src":"people.jpg"
+        },
+        {
+            "title":"SPORT",
+            "sub_h":"sport",
+            "sub_p":"运动专区",
+            "img_src":"sport.jpg"
+        }
+    ]
+}
+
+export default albumType;

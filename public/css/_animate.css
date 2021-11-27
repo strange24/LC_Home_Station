@@ -1,0 +1,185 @@
+/* 向下小箭头 */
+
+@keyframes pulsate-fwd {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px) scale(1.1);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+ 
+.pulsate-fwd {
+	animation: pulsate-fwd 1.2s ease-in-out infinite both;
+}  
+
+
+/* 大标题-合同跟踪 */
+@keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 2em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+}
+  
+.tracking-in-contract {
+	animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}  
+
+
+/*回到顶部箭头淡出*/
+ @keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.fade-out {
+  animation: fade-out .5s ease-out both;
+}
+
+/*回到顶部箭头淡入*/
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in {
+	animation: fade-in .5s ease-out both;
+}
+
+
+/*中心比例尺*/
+ @keyframes scale-in-hor-center {
+  0% {
+    transform: scaleX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+.scale-in-hor-center {
+	animation: scale-in-hor-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/*左滑*/
+ @keyframes slide-in-left {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+	animation: slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/*右滑*/
+ @keyframes slide-in-right {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-right {
+	animation: slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/*从下往上滑*/
+ @keyframes slide-in-bottom {
+  0% {
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-bottom {
+	animation: slide-in-bottom 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/*goal_header——向左倾斜*/
+ @keyframes tilt-in-left-1 {
+  0% {
+    transform: rotateX(-30deg) translateX(-300px) skewX(-30deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg) translateX(0) skewX(0deg);
+    opacity: 1;
+  }
+}
+
+.tilt-in-left-1 {
+	animation: tilt-in-left-1 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+<<<<<<< HEAD
+/*nav上滑*/
+@keyframes nav-hide {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+}
+
+.header-nav-hide{
+  animation: nav-hide  .3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/*nav下滑*/
+@keyframes nav-show {
+  0% {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.header-nav-show{
+  animation: nav-show  .3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+=======
+
+>>>>>>> 22f1dc65538d9c978a3005939d9578422c2393d1
+
+
+
+

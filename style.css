@@ -1,0 +1,112 @@
+.member_wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: url('https://chasing1874.oss-cn-chengdu.aliyuncs.com/login.jpg') no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 100px 70px 60px;
+}
+.member_wrapper .member_title {
+  color: #fff;
+  font-size: 40px;
+  font-family: 华文行楷;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+  margin-bottom: 0;
+}
+.member_wrapper .member_data {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  padding-right: 20px;
+}
+.member_wrapper .member_data p {
+  float: right;
+  color: #fff;
+  margin-left: 20px;
+  margin-bottom: 0;
+  font-size: 15px;
+  color: #f5f5f5;
+}
+.member_wrapper .member_data p span {
+  font-size: 30px;
+  font-family: 华文行楷;
+  color: #ccb1fb;
+  text-shadow: 1px 1px 1px #000;
+}
+.member_tabs {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.member_tabs .ant-tabs-tab {
+  padding: 15px;
+  width: 80px;
+  font-size: 16px;
+  color: #fff;
+}
+.member_con .members {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px;
+}
+.member_con .members .members_null {
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+  color: #7546C8;
+}
+.member_con .members .members_null .members_icon {
+  font-size: 80px;
+}
+.member_con .members .members_null p {
+  font-size: 15px;
+}
+.member_con .members li {
+  width: 50%;
+  float: left;
+  padding: 15px;
+  cursor: pointer;
+}
+.member_con .members li > div {
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  transition: all 0.4s ease-in-out;
+}
+.member_con .members li > div:hover {
+  transform: scale(1.1);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.member_con .members li > div img {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.member_con .members li > div .right {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+.member_con .members li > div .right > p {
+  word-break: break-all;
+}
+.member_con .members li > div h2,
+.member_con .members li > div p {
+  margin-bottom: 0;
+  line-height: 26px;
+  color: #fff;
+}
+.member_con .members li > div h2 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.member_con .members .avatar_icon {
+  vertical-align: middle;
+  width: 65px;
+  height: 65px;
+  font-size: 65px;
+}

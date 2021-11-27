@@ -1,0 +1,95 @@
+.login_wrapper{
+    // background:linear-gradient(to bottom right,lightskyblue,#7546C8,rgb(28, 28, 109));
+    width: 100%;
+    min-height: 100%;
+    background: url('https://chasing1874.oss-cn-chengdu.aliyuncs.com/login.jpg') no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .login_box{
+        width: 700px;
+        display: flex;
+        .login_left{
+            flex: 4;
+            background-color: rgba(0,0,0,0.4);
+            padding: 20px;
+            .left_title{
+                font: bold normal 50px/50px Adobe Arabic;
+                font-weight: bold;
+                color: #7546C8;
+                font-style: oblique;
+                margin-bottom: 15px;
+                cursor: pointer;
+                text-shadow: 1px 1px 1px #000;
+                user-select: none;
+                -moz-user-select: none;
+                -webkit-user-select: none;
+                -ms-user-select: none;
+            }
+            >span{
+                cursor: pointer;
+                font-size: 18px;
+                color: #fff;
+                &.selected{
+                    color: #7546C8;
+                    text-decoration: underline;
+                }
+            }
+            .login-form{
+                margin-top: 20px;
+
+                .validate_icon{
+                    width: 150px;
+                    height: 50px;
+                    float: right;
+                    margin-top: -74px;
+                }
+                .login-form-forgot{
+                    float: right;
+                    cursor: pointer;
+                    margin-right: -74px;
+                }
+                .login-form-button{
+                    width: 100%;
+                }
+                .ant-form-item-required{
+                    color: #fff;
+                }
+                .ant-checkbox-wrapper{
+                    span{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .login_right{
+            flex: 3;
+            color: #fff;
+            text-align: center;
+            background-color: rgba(0,0,0,0.2);
+            padding: 20px;
+            img{
+                width: 130px;
+                height: 130px;
+                border-radius: 50%;
+                margin-top: 40px;
+            }
+            p{
+                line-height: 20px;
+                font-size: 20px;
+                font-family: Edwardian Script ITC;
+                text-align: left;
+                &.nickname{
+                    font-size: 32px;
+                    margin-top: 25px;
+                    margin-bottom: 30px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+}

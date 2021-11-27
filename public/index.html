@@ -1,0 +1,29 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="referrer" content="never">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="西南石油大学计算机科学学院乐程软件工作室官方网站"
+    />
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/_animate.css">
+    <title>乐程官网</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+  <script>
+    const handleResize=()=>{
+      let htmlwidth=document.documentElement.clientWidth || document.body.clientWidth;
+      let htmlDom=document.getElementsByTagName("html")[0]
+      htmlDom.style.fontSize=htmlwidth/80+'px';
+    }
+    handleResize();//初始执行一次
+    window.addEventListener('resize',handleResize);
+  </script>
+</html>

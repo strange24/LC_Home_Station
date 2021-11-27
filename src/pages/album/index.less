@@ -1,0 +1,149 @@
+.album{
+    background:url('https://chasing1874.oss-cn-chengdu.aliyuncs.com/album-background.jpg');
+    width: 100%;
+    min-height: 900px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-color: #1e0e03;
+    position: relative;
+    .Special {
+        width: 90%;
+        // margin: 200px auto;
+        position: absolute;
+        overflow: hidden;
+        top: 240px;
+        left: 10%;
+        div{
+            visibility: visible;
+            animation-name: fadeIn;
+            width: 30%;
+            height: 300px;
+            // background-color: red;
+            float: left;
+            overflow: hidden;
+            text-align: center;
+            cursor: pointer;
+            position: relative;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+            .name{
+                    font: 700 2em Roboto,Arial,Helvetica;
+                    color: #fff;
+                    margin: 0;
+                    transition: transform 0.35s;
+                    transform: translate3d(0,100%,0);
+                    word-spacing: -0.15em;
+                    position: absolute;
+                    top: 40%;
+                    left: 40%;
+                    opacity: 1;
+            }
+            .scale-in-ver-bottom{
+                background-color: rgba(44, 47, 49, 0.8);
+                width: 100%;
+                height: 100%;
+                z-index: 100;
+                position: absolute;
+                opacity: 0;
+                text-transform: uppercase;
+                // display: none;
+                // box-sizing:content-box;
+                color: #fff;
+                top: 0;
+                left: 0;
+                padding: 20%;
+                backface-visibility: hidden;
+                // border: 1px solid #fff;
+                h2{
+                    font: 700 1.5em Roboto,Arial,Helvetica;
+                    color: inherit;
+                    margin: 0;
+                    transition: transform 0.35s;
+                    transform: translate3d(0,100%,0);
+                    word-spacing: -0.15em;
+                }
+                p{
+                    margin: 30px;
+                    button{
+                        color: #fff;
+                        background-color: transparent;
+                        border: 1px solid #fff;
+                        width: 100px;
+                        margin-top:10px;
+                        cursor: pointer;
+                        transition: all 0.3s ease-in-out;
+                        &:hover{
+                            // transform: ;
+                            width: 120px;
+                            transition: all 0.3s ease-in-out;
+                        }
+                    }
+                }
+                &::before{
+                    content: "";
+                    top: 20px;
+                    right: 20px;
+                    bottom: 20px;
+                    left:20px;
+                    opacity: 0;
+                    transform: scale(0);
+                    transition: opacity 0.35s transform 0.35s;
+                    position: absolute;
+                    border: 1px solid #fff;
+                }
+            }
+            &:hover .scale-in-ver-bottom{
+                opacity: 1;
+                -webkit-animation: scale-in-ver-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: scale-in-ver-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            }
+            &:hover .name{
+                opacity: 0;
+                transition: opacity 0.1s ease-in-out;
+                // -webkit-animation: scale-in-ver-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                // animation: scale-in-ver-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            }
+        }
+    }
+    
+}
+.album-footer{
+    text-align: center;
+    background-color:#25160c ;
+    color: #7546C8;
+}
+@-webkit-keyframes scale-in-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+      opacity: 1;
+    }
+  }
+  

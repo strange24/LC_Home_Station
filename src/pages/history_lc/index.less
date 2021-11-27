@@ -1,0 +1,248 @@
+.history_wrapper{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    .history_header{
+        width: 100%;
+        height: 100vh;
+        background:url('https://chasing1874.oss-cn-chengdu.aliyuncs.com/third_page.jpg') no-repeat;
+        background-size: 100% 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        .header_con{
+            width: 600px;
+            height: 200px;
+            color: #fff;
+            margin: 200px auto;
+            text-align: center;
+            h2{
+                font-size: 28px;
+                color: #fff;
+                margin-bottom: 0;
+                margin-bottom: 15px;
+                span{
+                    font-size: 40px;
+                    font-family: Edwardian Script ITC;
+                    color: #ddd;
+                }
+            }
+            p{
+                font-size: 16px;
+                margin-bottom: 40px;
+                color: #e7e5e5;
+            }
+            a{
+                display: inline-block;
+                color: #fff;
+                font-size: 16px;
+                width: 120px;
+                height: 40px;
+                line-height: 40px;
+                margin: 0 auto;
+                cursor: pointer;
+                background:linear-gradient(to right,rgba(20,191,152,0.1),rgb(92, 69, 26));
+            }
+        }
+    }
+    .history_con{
+        width: 100%;
+        padding: 30px;
+        // background-color: #fff;
+        .history_intro{
+            width: 100%;
+            background-color: #fff;
+            .history_con_left{
+                padding:80px 60px 60px;
+                p{
+                    margin-bottom: 0;
+                    color: #14bf98;
+                }
+                .title{
+                    font-size: 30px;
+                    font-weight: bold;
+                    color: #484a46;
+                    margin-bottom: 10px;
+                }
+                .desc{
+                    color: #787976;
+                    line-height: 30px;
+                    font-size: 15px;
+                    text-indent: 2em;
+                }
+            }
+            .history_con_right{
+                padding: 30px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .direction_wrapper{
+        width: 100%;
+        padding: 30px 20px 60px;
+        background-color: #fff;
+        .title_detail{
+            color:#14bf98;
+            .line_01{
+                width: 90px;
+                left: 60px;
+                top:-2px;
+                background-color: #14bf98;
+            }
+            .line_02{
+                right: -50px;
+                bottom:15px;
+                background-color: #14bf98;
+            }
+            .desc_en{
+                padding-left: 80px;
+            }
+        }
+        .direction_item{
+            text-align: center;
+            padding: 10px;
+            .detail_con{
+                width: 100%;
+                height: 100%;
+                padding: 10px;
+                border-radius: 5px;
+                transition: all .2s ease-in;
+                background-color:  rgba(20,191,152,0.1);
+                &:hover{
+                    background-color: rgba(20,191,152,0.2);
+                    transform:scale(1.1);
+                }
+                p{
+                    margin-bottom: 10px;
+                    &:first-of-type{
+                        font-size: 26px;
+                        color: #484a46;
+                    }
+                    &:last-of-type{
+                        
+                        color: #787976;;
+                    }
+                }
+            }
+        }
+    }
+    .rewards_fun_wrapper{
+        width: 100%;
+        // padding: 60px;
+        background-color: #fff;
+        margin-top: 40px;
+        .rewards_fun{
+            width: 100%;
+            .rewards_left{
+                img{
+                    width: 100%;
+                    height: 480px;
+                }
+            }
+            .rewards_right{
+                padding: 40px;
+            }
+            .fun_left{
+                padding: 40px;
+            }
+            .fun_right{
+                img{
+                    width: 100%;
+                    height: 380px;
+                }
+            }
+        }
+    }
+}
+
+.common_style{
+    .common_con{
+        .common_title{
+            font-size: 22px;
+            color: #14bf98;
+            position: relative;
+            margin-bottom:5px;
+            &::before{
+                content: '';
+                width: 60px;
+                height: 2px;
+                background-color: #14bf98;
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+            }
+        }
+        .common_mid{
+            font-size: 45px;
+            color: #484a46;
+            margin-bottom: 0;
+            font-family: Edwardian Script ITC;
+            letter-spacing: 2px;
+        }
+        .common_footer{
+            line-height: 30px;
+            color: #787976;
+        }
+        .more_info{
+            color: #909090;
+            font-style:oblique;
+            a{
+                text-decoration: underline;
+                font-weight: 600;
+                margin-left: 6px;
+            }
+        }
+    }
+}
+
+.history_footer{
+    width: 100%;
+    padding: 30px 50px;
+    background-color:#113448;
+    margin-top: 60px;
+    >p{
+        color: #fff;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .footer_con{
+        .con_left{
+            padding:20px 60px;
+            p{
+                margin-bottom: 10px;
+            }
+            .top{
+                color: #14bf98;
+                font-size: 18px;
+                font-weight: 600;
+            }
+            .mid{
+                font-size: 28px;
+                color: #fff;
+                font-weight: 700;
+            }
+            .footer{
+                color:#dfe5ec;
+                font-size: 15px;
+                line-height: 30px;
+            }
+        }
+        .con_right{
+            padding: 40px 40px 40px 0;
+            .ant-input{
+                background-color: #2a5d77;
+                border:1px solid #39728f;
+                margin-bottom: 20px;
+                color: #fff;
+            }
+            .ant-btn-primary{
+                width: 100%;
+                background-color: #14bf98;
+                border: 1px solid #14bf98;
+            }
+        }
+    }
+}

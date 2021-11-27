@@ -1,0 +1,88 @@
+.first_page{
+    .carousel_item{
+        height: 100vh;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        padding: 60px 80px 0;
+        p{
+            color: #fff;
+            margin-bottom: 15px;
+            width: 500px;
+            text-shadow: 1px 1px 1px #000;
+            &:first-of-type{
+                font-size: 30px;
+            }
+            &:last-of-type{
+                font-size: 16px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+
+.second_page{
+    background: url('https://chasing1874.oss-cn-chengdu.aliyuncs.com/second_page.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.third_page{
+    background: url('https://chasing1874.oss-cn-chengdu.aliyuncs.com/third_page.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.fifth_page{
+    background: url('https://chasing1874.oss-cn-chengdu.aliyuncs.com/fifth_page.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+#fp-nav ul li a span, .fp-slidesNav span{
+    background-color: #fff !important;
+}
+
+.side_bar{
+    width: 50px;
+    height: 200px;
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #5d5d5e;
+    transition: all 0.3s ease-in-out 0s;
+    border-radius: 3px;
+    .side_list{
+        width: 55px;
+        height: 200px;
+        >li{
+            width: 177px;
+            height: 50px;
+            // margin-left: -110px;
+            background-color: rgba(0,0,0,0.3);
+            cursor: pointer;
+            transition: all 0.3s ease-in-out 0s;
+            &:hover{
+                margin-left: -100px;
+                border-radius: 3px;
+            }
+            .side_item{
+                width: 177px;
+                height: 50px;
+                margin-bottom: 0;
+                font-size: 13px;
+                color: #fff;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+                .side_icon{
+                    color: #fff;
+                    font-size: 30px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,74 @@
+.goal_wrapper{
+    width: 100%;
+    min-height: 100vh;
+    .goal_header{
+        width: 100%;
+        height: 100vh;
+        background: url('https://chasing1874.oss-cn-chengdu.aliyuncs.com/goal_bg.jpg') no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 100px;
+        .goal_header_con{
+            width: 500px;
+            margin-left: 100px;
+            >h1{
+                font-size:44px;
+                line-height: 54px;
+                color: #fff;
+                font-weight:500;
+                letter-spacing: 2px;
+            }
+            >p{
+                color: rgb(221, 221, 221);
+                font-size:17px;
+                line-height: 30px;
+            }
+            .header_choice{
+                width: 100%;
+                height: 100px;
+                overflow: hidden;
+                >div,a{
+                    text-align: center;
+                    line-height: 48px;
+                    color: #fff;
+                    font-size: 17px;
+                    letter-spacing: 2px;
+                    float: left;
+                    width: 180px;
+                    height: 48px;
+                    border-radius: 2px;
+                    cursor: pointer;
+                }
+                >div{
+                    margin-right: 20px;
+                    background: linear-gradient(65deg, #342612 0, #6e3a0d 100%);
+                }
+                >a{
+                    background-color: rgba(66,49,33,0.7);
+                }
+            }
+        }
+        >a{
+            color: #fff;
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            position: relative;
+            top: 50px;
+            .godown{
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+.ant-modal.goal_modal{
+    background:linear-gradient(to bottom right,rgba(141, 137, 134, 0.3),rgba(52,38,18,0.5),rgba(52,38,18,0.8));
+    background-size: 100% 100%;
+    .ant-modal-content{
+        background-color: transparent;
+        box-shadow: none;
+    }
+}

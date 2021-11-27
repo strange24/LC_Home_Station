@@ -1,0 +1,38 @@
+/*标题*/
+.title_detail{
+    width: 400px;
+    margin: 30px auto;
+    position: relative;
+    text-align: center;
+}
+
+.title_detail>p:first-of-type{
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.title_detail>p:last-of-type{
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Edwardian Script ITC;
+    letter-spacing: 2px;
+}
+
+.title_detail .line_01{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.title_detail .line_02{
+    content: '';
+    width: 80px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+}

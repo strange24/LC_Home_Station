@@ -1,0 +1,109 @@
+.album-detail{
+    width: 90%;
+    margin: 30px auto;
+    padding-bottom: 30px;
+
+    .upload-box{
+        width: 100%;
+        margin-top: 60px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px dashed #aaa;
+        // background-color: red;
+        .ant-upload-select-picture-card{
+            width: 250px;
+            height: 250px;
+            position: relative;
+            .ant-upload{
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+    .img_box{
+        overflow: hidden;
+        
+        .box{
+            margin-top: 10px;
+            width: 300px;
+            float: left;
+            position: relative;
+            .delete{
+                transition: all .5s ease-in;
+                position: absolute;
+                font-size: 18px;
+                color:#fff;
+                // left: 0;
+                right: 35px;
+                top: 5px;
+                opacity: 0;
+            }
+            &:hover .delete{
+                opacity: 1;
+            }
+        }
+    }
+    >span{
+        position: absolute;
+        top: 0;
+        left: 10px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 17px;
+        color: #7546C8;
+        cursor: pointer;
+    }
+
+    .ant-upload{
+        width: 100%;
+        padding: 20px;
+        font-size: 20px;
+        cursor: pointer;
+        width: 100%;
+        font-weight: 600;
+        color: #676767;
+        .upload_icon{
+            font-size: 50px;
+        }
+    }
+
+    .load_more{
+        text-align: center;
+        font-size: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .img_box_null{
+        width: 100%;
+        text-align: center;
+        .null_icon{
+            font-size: 60px;
+        }  
+    }
+}
+
+.ant-upload-picture-card-wrapper{
+    width: 0 !important;
+}
+
+.album_pagination{
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.album-detail{
+    .null_info{
+        width: 100%;
+        padding: 60px;
+        text-align: center;
+        color: #7546C8;
+        .null_icon{
+            font-size: 50px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+}

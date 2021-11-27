@@ -1,0 +1,131 @@
+.reward_wrapper{
+    width: 100%;
+    min-height: 100vh;
+
+    .punish_title{
+        width: 100%;
+        padding:25px 60px 5px;
+        background-color: rgb(16,40,66);
+        p{
+            width: 100%;
+            height: 35px;
+            padding-left: 10px;
+            font-size: 22px;
+            color: #fff;
+            border-left: 10px solid #7546c8;
+        }
+    }
+    .punish_header{
+        width: 100%;
+        background: url('https://chasing1874.oss-cn-chengdu.aliyuncs.com/bg08.jpg') no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        >p{
+            color: #fff;
+            padding: 20px;
+            cursor: pointer;
+            margin-bottom: 0;
+            font-size: 17px;
+        }
+    }
+    .punish_con{
+        width: 100%;
+        .con_left{
+            background-color: rgba(0,0,0,0.2);
+            padding:10px 60px;
+            padding-left: 100px;
+            h2{
+                font-size: 30px;
+                color: #ddd;
+                position: relative;
+                margin-bottom: 60px;
+                &::before{
+                    content: '';
+                    width: 120px;
+                    height: 2px;
+                    background-color: #fff;
+                    position: absolute;
+                    bottom: -10px;
+                    left: 0;
+                }
+            }
+            p:first-of-type{
+                line-height: 60px;
+                color: #fff;
+                margin-left: -70px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+            p:last-of-type{
+                font-size: 15px;
+                line-height: 30px;
+                letter-spacing: 1px;
+                color: #ccc;
+                border-top: 1px solid rgba(255,255,255,0.4);
+                padding-top: 5px;
+            }
+        }
+        .con_right{
+            background-color: rgba(0,0,0,0,0.1);
+            padding:60px 80px 60px 30px;
+            .ant-list-item{
+                color: #fff;
+                border-bottom: 1px dashed rgb(76, 85, 102);
+                font-size: 15px;
+            }
+            .ant-list-footer{
+                color: rgb(16,40,66);
+            }
+        }
+    }
+    .punish_record{
+        width: 100%;
+        padding:0 60px;
+        background-color: rgb(16,40,66);
+
+        .ant-card{
+            background-color: rgba(16,40,66,0.85);
+            .ant-pagination-item-link{
+                background-color: rgb(16,40,66);
+                color: #fff;
+            }
+            .ant-pagination-item a{
+                background-color:  rgb(16,40,66);
+                color: #fff;
+                &:hover{
+                    color: #7546C8;
+                }
+            }
+            .search_form{
+                overflow: hidden;
+                .form_item{
+                    float: left;
+                    margin-right: 10px;
+                    margin-bottom: 0;
+                }
+            }
+            .ant-table-tbody{
+                // background-color:#44586e;
+                background: rgba(16,40,66,0.85);
+                color: #fff;
+                tr{
+                    &:hover{
+                        >td{
+                            background-color: #5c7087;
+                        }
+                    }
+                }
+            }
+            .ant-table-thead th{
+                background-color: #405368;
+                color: #fff;
+            }
+        }
+        .punish_footer{
+            color: #fff;
+            text-align: center;
+            line-height: 100px;
+            margin-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,214 @@
+.goal_wall_wrapper{
+    width: 100%;
+    // padding: 60px 0;
+    background-color:#fff;
+    background: url('https://chasing1874.oss-cn-chengdu.aliyuncs.com/cele_02.jpg') no-repeat;
+    background-size: 100% 100;
+    .goal_list{
+        width: 100%;
+        background: url('https://chasing1874.oss-cn-chengdu.aliyuncs.com/bg08.jpg') no-repeat;
+        background-size: 100% 100%;
+        .goal_list_left{
+            padding: 100px 60px;   
+            >.title{
+                font-size: 26px;
+                color: #fff;
+                line-height: 50px;
+                border-bottom: 1px solid rgba(255,255,255,0.2);
+                padding-bottom:  60px;
+                margin-bottom: 10px;
+                position: relative;
+                >span{
+                    font-family: Edwardian Script ITC;
+                    font-size: 34px;
+                    letter-spacing: 1px;
+                }
+                &::before{
+                    content: '';
+                    width: 80px;
+                    height: 2px;
+                    background-color: #fff;
+                    position: absolute;
+                    bottom: 50px;
+                    left: 0;
+                }
+            }
+            p{
+                color: #c6cfd9;
+                line-height: 30px;
+                letter-spacing: 1px;
+                text-indent: 2em;
+                font-size: 15px;
+            }
+        }
+        .goal_list_right{
+            padding: 30px;
+            .goal_right_con{
+                width: 100%;
+                height: 100%;
+                .list_item{
+                    margin-bottom: 20px;
+                    border-radius: 2px;
+                    padding:10px;
+                    background-color: rgba(255,255,255,0.03);
+                    transition: all 1s ease-in;
+                    .default_avatar{
+                        font-size: 40px;
+                    }
+                    .list_item_desc{
+                        cursor: pointer;
+                        >p{
+                            color: #fff;
+                            line-height: 26px;
+                        }
+                        .desc_footer{
+                            width: 100%;
+                            overflow: hidden;
+                            p{
+                                &:first-of-type{
+                                    float: left;
+                                    color: rgba(255,255,255,0.3);
+                                }
+                                &:last-of-type{
+                                    float: right;
+                                }
+                            }
+                        }
+                    }
+                    &:hover{
+                        border-bottom: 1px solid #ddd;
+                    }
+                }
+                .ant-pagination-item,.ant-pagination-item-link{
+                    background-color: transparent;
+                    color: #fff;
+                    >a{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.summary_list{
+    width: 100%;
+    .sum_header{
+        color: #7546C8;
+        height: 130px;
+        padding-top: 30px;
+        background-color: #f1f1f1;
+        .title_detail{
+            text-align: center;
+            width: 500px;
+            margin: 0 auto;
+            position: relative;
+            >p:first-of-type{
+                font-size: 30px;
+                font-weight: 400;
+                letter-spacing: 2px;
+                margin-bottom: 0;
+            }
+            >p:last-of-type{
+                line-height: 35px;
+                font-size: 30px;
+                font-weight: bold;
+                font-family: Edwardian Script ITC;
+                letter-spacing: 2px;
+                margin-bottom: 0;
+            }
+            .line_01{
+                content: '';
+                width: 100px;
+                height: 1px;
+                background-color: #7546C8;
+                position: absolute;
+                top: -4px;
+                left: 100px;
+            }
+            .line_02{
+                content: '';
+                width: 80px;
+                height: 1px;
+                background-color: #7546C8;
+                position: absolute;
+                bottom: 15px;
+                right: 100px;    
+            }
+        }
+    }
+}
+
+.summary_list .sum_con{
+    width: 100%;
+    background: url('https://chasing1874.oss-cn-chengdu.aliyuncs.com/bg07.jpg') no-repeat;
+    background-size: 100% 100%;
+    .ant-avatar-image{
+        cursor: pointer;
+    }
+    .con_left{
+        background-color: rgba(0,0,0,0.1);
+        padding: 60px;
+        .left_list{
+            /*列表项*/
+            .ant-list-item{
+                color: #f5f5f5;
+                margin-bottom: 30px;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    transform: translateY(-5px);
+                    background-color: rgba(255,255,255,0.1);
+                    box-shadow: 1px 1px 10px #000;
+                }
+            }
+            /*标题*/
+            .ant-list-item-meta-title{
+                >a{
+                    color: #fff;
+                    &:hover{
+                        color: #7546C8;
+                    }
+                }
+            }
+            /*描述*/
+            .ant-list-item-meta-description{
+                color: #777;
+                font-style: oblique;
+            }
+            /*评论*/
+            .ant-list-item-action > li{
+                color: #fff;
+                cursor: pointer;
+            }
+            .ant-pagination-item,.ant-pagination-item-link{
+                background-color: transparent;
+                color: #fff;
+                >a{
+                    color: #fff;
+                }
+            }
+            /*小点点*/
+            .ant-pagination-jump-prev .ant-pagination-item-container .ant-pagination-item-ellipsis, .ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-ellipsis{
+                color: #fff;
+            }
+            .goal_item_image{
+                width: 150px;
+                height: 150px;
+            }
+            .goal_item_title{
+                color: #fff;
+                cursor: pointer;
+                &:hover{
+                    color: #7546C8;
+                }
+            }
+        }
+    }
+}
+
+/*评论*/
+.list_coment{
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+}
